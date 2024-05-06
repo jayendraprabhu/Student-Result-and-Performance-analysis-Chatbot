@@ -1,0 +1,43 @@
+body{
+    background-color: #0099ff;
+}
+
+.fl{
+    display: flex;
+
+}
+
+.outer_login{
+    display: flex;
+}
+#form{
+    background-color: azure;
+    width: 20%;
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#form:hover{
+    
+    box-shadow: 0 0 20px #f06c5e,0 0 60px 5px #f06c5e ;
+}
+
+#btn{
+    color: white;
+    background-color: aqua;
+    border: none;
+    width: 80%;
+    margin: 12px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    
+}
+
+@media screen and (max-width:900px){
+    #form{
+        width:65%;
+        padding: 40px;
+    }
+}
